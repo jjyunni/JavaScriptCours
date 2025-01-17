@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    padding: 25px;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;     
+    padding: 20px 30px;
+    max-width: 800px;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin: 5px;
+    font-size: 17px;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.chckbx{
+    display: flex;
+}
+
+
+.errormsg {
+    border: 1px solid red;
+    background-color: #FFCCCC;
+    padding: 10px;
+    font-size: 14px;
+    color: red;
+    list-style-type: none; 
+    margin: 10px 0; 
+}
+.errormsg li {
+    margin-bottom: 5px; 
+}
+
+.successmsg {
+    border: 1px solid green;
+    background-color: rgba(113, 212, 0, 0.4);
+    color: green;
+    padding: 10px;
+    font-size: 14px;
+    list-style-type: none; 
+    margin: 10px 0; 
+}
+
+
+input.valid {
+    border: 1px solid green;
+    background-color: rgba(113, 212, 0, 0.4);
+}
+
+input.invalid {
+    border: 1px solid red;
+    background-color: #FFCCCC;
+}
+

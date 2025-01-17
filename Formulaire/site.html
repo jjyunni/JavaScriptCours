@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="styles.css">
+         <title>Mon Premier Projet JavaScript</title>
+     </head>
+     <body>
+
+        <div class="message-error">
+            <ul class="errormsg"></ul>
+        </div>
+         <div class="message-success">
+            <strong>Form sent</strong>
+         </div>
+
+
+         <form id="myForm">
+            <div>
+                <label for="user">USERNAME</label>
+                <input type="text" id="user" placeholder="enter username"/>
+            </div>
+
+            <div>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="enter email"/>
+            </div>
+            
+            <div>
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" placeholder="enter password" />
+            </div>
+            
+            <div>
+                <label for="confpassword">CONFIRM PASSWORD</label>
+                <input type="password" id="confpassword" placeholder="confirm password"/>
+            </div>
+
+            <div class="chckbx">
+                <input type="checkbox" id ="termsncond"/>
+                <label for="termsncond">I agree to the terms and conditions</label>
+            </div>
+            
+
+            <button type="submit">Send</button>
+
+         </form>
+
+         <div id="form-content"></div>
+
+         <script src="main.js"></script>
+     </body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    padding: 25px;
+}
+/* made two different css for when its in light and dark mode. og will be body and once js toggles dark css will add onto body css therefore only changing the background color and the color here*/
+.active {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.show-content{
+    display:block;
+}
